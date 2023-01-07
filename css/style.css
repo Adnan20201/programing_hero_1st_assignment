@@ -84,6 +84,7 @@
     font-size: 15px;
     color: #6e6e6e;
     line-height: 25px;
+   
     margin-bottom: 15px
 }
 
@@ -92,11 +93,18 @@
 }
 
 .failures-item ul li {
-    padding: 10px;
+    padding-left: 15px;
+    padding: 8px;
     padding-left: 20px;
     font-size: 13px;
     font-weight: 500;
     color: #737070;
+}
+.failures-item ul li i{
+    font-size: 20px;
+    margin-left: -25px;
+    padding-left: 10px;
+    color: #005FAC;
 }
 
 /* failures_content end */
